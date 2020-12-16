@@ -1,0 +1,11 @@
+jackson:
+  bean-introspection-module: true
+---
+#
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/hello
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 'root'
+    dialect: MYSQL
